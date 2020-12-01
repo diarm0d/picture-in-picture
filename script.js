@@ -15,7 +15,6 @@ async function selectMediaStream() {
 }
 
 startButton.addEventListener('click', async () => {
-    console.log('hello')
     // Disable button
     startButton.disabled = true;
     // start in picture in picture
